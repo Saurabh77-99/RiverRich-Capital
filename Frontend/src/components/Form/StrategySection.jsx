@@ -44,6 +44,7 @@ export function StrategySection({ data, onChange, error }) {
               bg-white
               placeholder-gray-400
               focus:outline-none focus:ring-2
+              text-black
             `}
             placeholder="Enter a unique name for your strategy"
           />
@@ -78,6 +79,7 @@ export function StrategySection({ data, onChange, error }) {
             bg-white
             placeholder-gray-400
             resize-none
+             text-black
           "
           placeholder="Describe your trading strategy's objectives and methodology..."
         />

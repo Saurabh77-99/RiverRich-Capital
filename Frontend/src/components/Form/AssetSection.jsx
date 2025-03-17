@@ -62,6 +62,7 @@ export function AssetSection({ data, onChange }) {
             focus:ring-2 focus:ring-green-500 focus:border-green-500
             transition-colors duration-200
             bg-white
+             text-black
           "
         >
           <option value="">Select a trading pair</option>
@@ -97,7 +98,7 @@ export function AssetSection({ data, onChange }) {
             shadow-sm
             focus:ring-2 focus:ring-green-500 focus:border-green-500
             transition-colors duration-200
-            bg-white
+            bg-white  text-black
           "
         >
           <option value="">Select timeframe</option>
@@ -141,7 +142,7 @@ export function AssetSection({ data, onChange }) {
               border border-gray-300
               shadow-sm
               focus:ring-2 focus:ring-green-500 focus:border-green-500
-              transition-colors duration-200
+              transition-colors duration-200  text-black
             "
           />
         </div>
@@ -159,7 +160,7 @@ export function AssetSection({ data, onChange }) {
               border border-gray-300
               shadow-sm
               focus:ring-2 focus:ring-green-500 focus:border-green-500
-              transition-colors duration-200
+              transition-colors duration-200  text-black
             "
           />
         </div>

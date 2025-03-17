@@ -444,7 +444,7 @@ export function Form() {
 
         <motion.div className="mb-12 text-center" variants={titleVariants}>
           <motion.h1
-            className="text-4xl font-bold bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent mb-4"
+            className="text-4xl font-bold bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent mb-4  text-black"
             initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
@@ -479,7 +479,7 @@ export function Form() {
 
         {/* Strategy and Asset Section */}
 
-        <motion.div className="grid md:grid-cols-2 gap-8 mb-8 border-1">
+        <motion.div className="grid md:grid-cols-2 gap-8 mb-8 border-1  text-black">
           <motion.div
             variants={sectionVariants}
             whileHover="hover"
@@ -512,7 +512,7 @@ export function Form() {
 
         {/* Trading Rules Section */}
 
-        <motion.div className="mb-8 text-center" variants={sectionVariants}>
+        <motion.div className="mb-8 text-center  text-black" variants={sectionVariants}>
           <motion.h2
             className="text-2xl font-bold text-gray-800 mb-4"
             initial={{ opacity: 0 }}
@@ -553,7 +553,7 @@ export function Form() {
 
         {/* Risk Management Section */}
 
-        <motion.div className="mb-8 text-center" variants={sectionVariants}>
+        <motion.div className="mb-8 text-center  text-black" variants={sectionVariants}>
           <motion.h2
             className="text-2xl font-bold text-gray-800 mb-4"
             initial={{ opacity: 0 }}
