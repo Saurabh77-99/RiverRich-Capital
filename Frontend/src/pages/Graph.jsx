@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { WinLossRatio } from "../components/Graph/WinLossRatio";
 import { MonthlyReturns } from "../components/Graph/MonthlyReturns";
 import { MonthlyWinRate } from "../components/Graph/MonthlyWinRate";
@@ -49,7 +49,7 @@ export function Graph() {
     try {
       // Replace this with your API endpoint for the GET request
       const response = await fetch(
-        `https://tradewave-mzyn.onrender.com/report/${report_id}?format=pdf`,
+        `https://riverich-capital.onrender.com/report/${report_id}?format=pdf`,
         {
           method: "GET",
           headers: {

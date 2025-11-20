@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import {
   Brain,
   Send,
@@ -49,7 +49,7 @@ export function AIInsight({ insights, data }) {
 
     let res;
     try {
-      res = await axios.post("https://tradewave-mzyn.onrender.com/chat", {
+      res = await axios.post("https://riverich-capital.onrender.com/chat", {
         backtest_results: {
           insights,
           data,

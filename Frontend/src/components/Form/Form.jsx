@@ -1,19 +1,12 @@
-import React, { useState, useEffect } from "react";
-
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-
 import { StrategySection } from "./StrategySection";
-
 import { AssetSection } from "./AssetSection";
-
 import { RiskSection } from "./RiskSection";
-
 import { ExitPointSection } from "./ExitPointSection";
-
 import { EntryPointSection } from "./EntryPointSection";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-
 import Loader from "./Loader";
 
 function simplifyConditions(obj) {
@@ -326,7 +319,7 @@ export function Form() {
       console.log("Form submitted:", formToSubmit);
 
       setLoading(true);
-      const url = "https://tradewave-mzyn.onrender.com/api/backtest";
+      const url = "https://riverich-capital.onrender.com/api/backtest";
       const response = await axios.post(url, formToSubmit, {
         headers: {
           "Content-Type": "application/json", // Set the header for JSON

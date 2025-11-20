@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Twitter, Linkedin, Github } from 'lucide-react';
 
@@ -35,7 +34,7 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand Section */}
           <motion.div variants={itemVariants} className="space-y-4">
-            <h3 className="text-xl font-bold text-white">Stratify.</h3>
+            <h3 className="text-xl font-bold text-white">RiverRich.</h3>
             <p className="text-sm text-gray-400">
               Build and backtest trading strategies without coding.
             </p>
@@ -117,7 +116,7 @@ export function Footer() {
           variants={itemVariants}
           className="border-t border-gray-800 mt-12 pt-8 text-sm text-gray-400"
         >
-          © 2025 Stratify. All rights reserved.
+          © 2025 RiverRich. All rights reserved.
         </motion.div>
       </div>
     </motion.footer>

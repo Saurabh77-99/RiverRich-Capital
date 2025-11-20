@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Eye, EyeOff, ArrowRight, Mail, Lock, User } from "lucide-react";
@@ -288,7 +288,7 @@ export function Signup() {
               transition={{ delay: 0.2 }}
               className="text-center text-white"
             >
-              <h1 className="text-4xl font-bold mb-6">Welcome to TradeWave</h1>
+              <h1 className="text-4xl font-bold mb-6">Welcome to RiverRich Capital</h1>
               <p className="text-lg opacity-90 max-w-md mx-auto leading-relaxed">
                 Join our community of traders and start optimizing your trading
                 strategies
