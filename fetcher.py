@@ -4,7 +4,7 @@ import sys
 
 def fetch_price_history_by_interval(symbol, interval, start_time, end_time=None):
     """Fetch large historical data using pagination."""
-    url = "https://api.binance.com/api/v3/klines"
+    url = "https://api.binance.us/api/v3/klines"
     all_klines = []
 
     while True:
